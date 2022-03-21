@@ -1,72 +1,76 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Ruby on Rails with React
 
-> Description the project.
+> Setup RoR with React Gem.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
+- Ruby
+- Rails
+- React
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+By now you've used many different gems with Rails and this exercise will have you connect previous knowledge with new knowledge as you get a chance to use the react-rails gem. This gem allows you to build React components as a part of your Rails JavaScript and serve it in a component, react_component, to be used in a regular ERB file.
 
 
-To get a local copy up and running follow these simple example steps.
+To run the project locally, copy up and running follow these simple example steps :
 
-### Prerequisites
+- First of all make sure you have both `Ruby` & `Rails` installed in your machine
+  (else You can install `Rails` just with this simple command `gem install rails`)
+- clone the project with the following command line :
 
-### Setup
+```
+$ git clone git@github.com:leonardoeng13/Set-up-rails-react-gem.git
+```
 
-### Install
+- Then go to the right folder
 
-### Usage
+```
+$ cd Set-up-rails-react-gem
+```
 
-### Run tests
+```
+$ bundle
+```
 
-### Deployment
+and run to install npm package
+
+```
+$ npm install
+```
+
+make sure the database is up and running.
+
+```
+$ rails db:create
+```
+
+When you will add migration file then, you can add command like
+
+```
+$ rails db:migrate
+```
+
+- Finaly run `rails s` and visit http://localhost:3000/ in your browser!
 
 
 
-## Authors
+## Author
 
-👤 **Author1**
+👤 **Leo de Andrade**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@leonardoeng13](https://github.com/leonardoeng13)
+- Twitter: [@Leo de Andrade](https://twitter.com/andrede_leo)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/leonardodeandrade)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
